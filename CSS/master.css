@@ -35,9 +35,22 @@ nav a {
 }
 
 .hero {
-  height: 20em;
+  position: absolute;
+  height: 40%;
   width: 100%;
   background-image: url('../img/hero.jpg');
   background-position: center;
   background-size: contain;
+}
+
+.hero h1 {
+  position: relative;
+  color: white;
+  top: 50%;
+  left: 40%;
+  font-size: 50px;
+}
+
+.html-class {
+
 }
