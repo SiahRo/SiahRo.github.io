@@ -25,7 +25,6 @@ nav a {
 .name{
   display: inline-block;
   float: left;
-  /* width: 50%; */
   padding: .5em;
 }
 
@@ -33,5 +32,12 @@ nav a {
   display: inline-block;
   float: right;
   padding: .5em;
-  /* width: 50%; */
+}
+
+.hero {
+  height: 20em;
+  width: 100%;
+  background-image: url('../img/hero.jpg');
+  background-position: center;
+  background-size: contain;
 }
